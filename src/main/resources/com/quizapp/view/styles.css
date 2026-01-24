@@ -1,0 +1,60 @@
+/* Quiz Application Stylesheet */
+
+/* Root Node Styling */
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Label Styling */
+.label {
+    -fx-font-smooth-type: lcd;
+}
+
+/* RadioButton Styling */
+.radio-button {
+    -fx-font-size: 14;
+    -fx-padding: 10;
+}
+
+.radio-button .radio {
+    -fx-padding: 5;
+}
+
+/* Button Styling */
+.button {
+    -fx-font-size: 14;
+    -fx-padding: 10 20;
+    -fx-border-radius: 5;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-opacity: 0.8;
+}
+
+.button:pressed {
+    -fx-opacity: 0.6;
+}
+
+/* ScrollPane Styling */
+.scroll-pane {
+    -fx-background-color: #f5f5f5;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: #f5f5f5;
+}
+
+/* VBox and HBox Styling */
+.vbox {
+    -fx-spacing: 15;
+}
+
+.hbox {
+    -fx-spacing: 10;
+}
+
+/* Alert Dialog Styling */
+.alert .header-panel {
+    -fx-padding: 10;
+}
